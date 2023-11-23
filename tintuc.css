@@ -1,0 +1,32 @@
+h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.news {
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.news-item {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.news-img {
+    max-width: 30%; 
+    margin-top: -500px;
+}
+.img-item {
+    width: 400px;
+    height: auto;
+    margin-left: 1200px;
+    margin-bottom: 10px;
+}
